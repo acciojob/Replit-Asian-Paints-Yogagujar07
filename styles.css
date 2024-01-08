@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+#block_id, #colour_id {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
